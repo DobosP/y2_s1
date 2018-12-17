@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.Map.Entry K getKey()'>
+        <annotation name='java.lang.Deprecated'/>
+    </item>
+</root>

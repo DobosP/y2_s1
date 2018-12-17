@@ -1,0 +1,6 @@
+Msg 2705, Level 16, State 4, Line 3 Column names in each table must be unique.
+ Column name 'frineds_since' in table 'friends' is specified more than once.
+
+
+ Msg 2705, Level 16, State 4, Line 3 Column names in each table must be unique. Column name 'relation_type' in table 'friends' is specified more than once.
+ 
