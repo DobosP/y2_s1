@@ -1,6 +1,7 @@
 package model;
 
 import DataStructure.*;
+import ExceptionHandling.MyException;
 
 public class ProgState {
     MyIntStack<IntStatement> execStack;
@@ -9,20 +10,27 @@ public class ProgState {
     IntStatement originalProgram;
     IntFileTable filetable;
     IntHeap heap;
+    Integer id;
     public ProgState(MyIntStack<IntStatement> stack,
               MyIntDict<String, Integer> dict,
               MyIntList<Integer> list,
               IntFileTable _fileTable,
               IntHeap _heap,
+              Integer _id,
               IntStatement statement){
         execStack = stack;
         symTable = dict;
         out = list;
         filetable = _fileTable;
         heap = _heap;
+        id = _id;
         originalProgram = statement;
         execStack.push(statement);
     }
+
+    public void setId(Integer _id) {this.id = _id; }
+
+    public Integer getId(){return  this.id;}
 
     public void setExecStack(MyIntStack<IntStatement> execStack) {
         this.execStack = execStack;
@@ -62,12 +70,26 @@ public class ProgState {
 
     public String toString(){
         String msg = "";
-
+        msg += "Program state id: " + id.toString() + "\n";
         msg += execStack.toString() + "\n";
         msg += symTable.toString() + "\n";
         msg += out.toString() + "\n";
         msg += heap.toString() + "\n";
         msg += filetable.toString();
         return msg;
+    }
+
+    public Boolean isNotCompleted(){
+        return !execStack.empty();
+    }
+
+    public ProgState oneStep() throws MyException {
+
+        if(execStack.empty()){
+            throw new MyException("Stack is empty!");
+        }
+        IntStatement statement = execStack.pop();
+
+        return statement.execute(this);
     }
 }

@@ -37,7 +37,7 @@ public class AssignStatement implements IntStatement  {
         catch (MyException e){
             throw e;
         }
-        return state;
+        return null;
     }
 
 }

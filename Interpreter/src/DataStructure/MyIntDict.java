@@ -14,5 +14,5 @@ public interface MyIntDict<K, V> {
     void update(K key, V val) throws MyException;
     Map<K, V> getContent();
     void setContent(Map<K, V> _hash);
-
+    MyIntDict<K, V> clone();
 }

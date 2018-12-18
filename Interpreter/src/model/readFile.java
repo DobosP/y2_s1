@@ -53,6 +53,6 @@ public class readFile implements IntStatement{
         else {
             symtable.add(var_name, value);
         }
-        return state;
+        return null;
     }
 }

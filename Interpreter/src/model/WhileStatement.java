@@ -34,6 +34,6 @@ public class WhileStatement implements IntStatement{
             stack.push(statement);
         }
 
-        return state;
+        return null;
     }
 }

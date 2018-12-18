@@ -41,6 +41,6 @@ public class openRFile implements IntStatement {
         int index = fileTable.add(new Pair(filename, reader));
         MyIntDict<String, Integer> symtable = state.getSymTable();
         symtable.add(var_file_id, index);
-        return state;
+        return null;
     }
 }

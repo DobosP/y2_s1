@@ -32,7 +32,7 @@ public class neww implements IntStatement{
         }
         int adress = heap.add(val);
         symTable.add(var_name, adress);
-        return state;
+        return null;
     }
 
 

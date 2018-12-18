@@ -9,6 +9,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 
 public class Repository implements IntRepository {
 
@@ -26,16 +27,7 @@ public class Repository implements IntRepository {
     }
 
     @Override
-    public ProgState getProgState(int index) throws MyException {
-        try {
-            return list.get(index);
-        } catch (MyException e) {
-            throw e;
-        }
-    }
-
-    @Override
-    public void logPrgStateExec(int index) throws MyException {
+    public void logPrgStateExec(ProgState prg) throws MyException {
         PrintWriter logFile;
         try {
             logFile = new PrintWriter(new BufferedWriter(new FileWriter(file_name, true)));
@@ -43,7 +35,20 @@ public class Repository implements IntRepository {
         catch (IOException exp){
             throw new MyException("File not found");
         }
-        logFile.write(list.get(index).toString());
+        logFile.write(prg.toString());
         logFile.close();
     }
+
+    @Override
+    public List<ProgState> getPrgList() {
+        return list.getAll();
+    }
+
+    @Override
+    public void setPrgList(List<ProgState> new_list) {
+        list.setList(new_list);
+    }
+
+
+
 }

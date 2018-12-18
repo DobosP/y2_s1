@@ -46,6 +46,16 @@ public  class MyList<T> implements MyIntList<T> {
     }
 
     @Override
+    public List<T> getAll() {
+        return list;
+    }
+
+    @Override
+    public void setList(List<T> new_list) {
+        list = new_list;
+    }
+
+    @Override
     public String toString(){
         String printstr = new String();
         printstr += "Out";

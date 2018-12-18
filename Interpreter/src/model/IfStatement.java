@@ -45,6 +45,6 @@ public class IfStatement implements  IntStatement{
         else{
             stack.push(second);
         }
-        return state;
+        return null;
     }
 }

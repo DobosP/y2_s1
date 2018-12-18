@@ -1,0 +1,327 @@
+Program state id: 1
+ExecStack:
+((v=10;new a=22);(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a))))
+SymTable
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+(v=10;new a=22)
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+(v=10;new a=22)
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+v=10
+new a=22
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+v=10
+new a=22
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+new a=22
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+v-->10
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+new a=22
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+v-->10
+Out
+Heap
+FileTableProgram state id: 1
+ExecStack:
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+(fork(((update a=10;v=32);(print(v);print(readH a))));(print(v);print(readH a)))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+fork(((update a=10;v=32);(print(v);print(readH a))))
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+fork(((update a=10;v=32);(print(v);print(readH a))))
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+((update a=10;v=32);(print(v);print(readH a)))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+((update a=10;v=32);(print(v);print(readH a)))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+print(v)
+print(readH a)
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+(update a=10;v=32)
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+print(v)
+print(readH a)
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+(update a=10;v=32)
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+print(readH a)
+SymTable
+a-->1
+v-->10
+Out
+10
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+update a=10
+v=32
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+10
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+print(readH a)
+SymTable
+a-->1
+v-->10
+Out
+10
+Heap
+1-->22
+FileTableProgram state id: 10
+ExecStack:
+update a=10
+v=32
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+10
+Heap
+1-->22
+FileTableProgram state id: 1
+ExecStack:
+SymTable
+a-->1
+v-->10
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+v=32
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+v=32
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->10
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+(print(v);print(readH a))
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+print(v)
+print(readH a)
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+print(v)
+print(readH a)
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+print(readH a)
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+32
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+print(readH a)
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+32
+Heap
+1-->10
+FileTableProgram state id: 10
+ExecStack:
+SymTable
+a-->1
+v-->32
+Out
+10
+22
+32
+10
+Heap
+1-->10
+FileTable

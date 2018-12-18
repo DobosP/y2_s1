@@ -41,6 +41,6 @@ public class closeRFile implements IntStatement {
             throw new MyException("File can not be close!");
         }
         filetable.remove(index_file);
-        return state;
+        return null;
     }
 }

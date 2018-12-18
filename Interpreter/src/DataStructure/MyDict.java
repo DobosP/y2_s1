@@ -63,6 +63,15 @@ public class MyDict<K, V> implements MyIntDict<K, V> {
     }
 
     @Override
+    public MyIntDict<K, V> clone() {
+        MyDict<K, V> copy = new MyDict();
+        for(K key: hash.keySet()) {
+            copy.add(key, hash.get(key));
+        }
+        return copy;
+    }
+
+    @Override
     public String toString(){
         String printstr = new String();
         printstr += "SymTable";

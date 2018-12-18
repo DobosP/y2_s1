@@ -13,13 +13,15 @@ public class AllStepsCommand extends Command{
     }
     @Override
     public void execute() {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Index of Program :");
-        String index = scan.nextLine();
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("Index of Program :");
+//        String index = scan.nextLine();
         try {
-            ctr.AllSteps(Integer.parseInt(index));
+            ctr.AllSteps();
         }
         catch(MyException e){
+            System.out.println(e.getMessage());
+        } catch (InterruptedException e) {
             System.out.println(e.getMessage());
         }
     }

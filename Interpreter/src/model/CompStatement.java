@@ -23,7 +23,7 @@ public class CompStatement implements IntStatement {
         MyIntStack<IntStatement> stack = state.getExecStack();
         stack.push(second);
         stack.push(first);
-        return state;
+        return null;
     }
 
 }
