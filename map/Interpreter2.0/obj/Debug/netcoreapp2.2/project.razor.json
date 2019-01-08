@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/dobo/y2_s1/map/Interpreter2.0/Interpreter2.0.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+Source code
+
+; a
+
+(defun len(L)
+  (cond
+  ((NULL L) 0)
+  (T (+ (len (cdr L)) 1))
+  )
+)
+
+(defun mygcd(a b)
+  (cond
+    ((equal b 0) a)
+    (T (mygcd b (mod a b)))
+  )
+)
+
+(defun mylcm(a b)
+  (cond
+    (T (/ (* a b) (mygcd a b)))
+  )
+)
+
+(defun listlcm(L)
+  (cond
+    ((NULL L) 1)
+    ((Integerp (car L)) (mylcm (car L) (listlcm (cdr L))))
+    (T (listlcm (cdr L)))
+  )
+)
+
+
+; b
+
+(defun montainb(L D)
+  (cond
+    ((and (equal (len L) 1) (equal D 1)) T)
+    ((and (equal (len L) 1) (equal D 0)) NIL)
+    ((> (car L) (cadr L)) (montainb (cdr L) 1))
+    ((and (< (car L) (cadr L)) (= D 0)) (montainb (cdr L) 0))
+    (T NIL)
+  )
+)
+
+(defun montain(L)
+  (cond
+    ((or (< (len L) 3) (> (car L) (cadr L))) NIL)
+    (T (montainb L 0))
+  )
+)
+
+; c
+
+(defun findnr(L)
+  (cond
+    ((NULl L) NIL)
+    ((Integerp (car L)) (car L))
+    (T (findnr (cdr L)))
+  )
+)
+
+(defun findmax(L M)
+  (cond
+    ((NULl L) M)
+    ((and (Integerp (car L)) (> (car L) M)) (findmax (cdr L) (car L)))
+    (T (findmax (cdr L) M))
+  )
+)
+
+(defun removemaxb(L M)
+  (cond
+  ((NULL l) (list))
+  ((equal (car L) M) (removemaxb (cdr L) M))
+  (T (cons (car L) (removemaxb (cdr L) M)))
+  )
+)
+(defun removemax(L)
+  (cond
+  (T (removemaxb L (findmax L (findnr L))))
+  )
+)
+
+; d
+
+(defun findprod(L)
+  (cond
+  ((NULL L) 1)
+  ((and (Integerp (car L)) (equal (mod (car L) 2) 0)) (* (car L) (findprod (cdr L))))
+  ((listp (car L)) (* (findprod (cdr L)) (findprod (car L))))
+  (T (findprod (cdr L)))
+  )
+)
+
+Tests
+
+a)
+(listlcm (list 10 25 30))
+150
+(listlcm (list 24 30 21))
+840
+(listlcm (list 5 10 2))
+10
+
+b)
+(montain (list 2 3 4 5))
+NIL
+(montain (list 2 3 4 1))
+T
+(montain (list 2 3))
+NIL
+(montain (list 5 2 3))
+NIL
+montain (list 1 2 1))
+T
+
+c)
+(removemax (list 3 7 9 'Ab 9))
+(3 7 AB)
+(removemax (list 3 7  'Ab ))
+(3 AB)
+(removemax (list 3  'Ab ))
+(AB)
+(removemax (list   'Ab ))
+(AB)
+
+d)
+(findprod (list 3 2 (list 4)))
+8
+(findprod (list 3 2 (list 4 (list 2))))
+16
+(findprod (list 3 2 (list 4 (list 2)) 3 4))
+64
