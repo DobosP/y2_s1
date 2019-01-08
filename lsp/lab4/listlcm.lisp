@@ -24,6 +24,7 @@
   (cond
     ((NULL L) 1)
     ((Integerp (car L)) (mylcm (car L) (listlcm (cdr L))))
+    ((listp (car L))  (mylcm (listlcm (car L)) (listlcm (cdr L)) ))
     (T (listlcm (cdr L)))
   )
 )
@@ -58,10 +59,13 @@
   )
 )
 
+
+
 (defun findmax(L M)
   (cond
     ((NULl L) M)
     ((and (Integerp (car L)) (> (car L) M)) (findmax (cdr L) (car L)))
+    ((listp (car L))  (max (findmax (car L) M) (findmax (cdr L) M)))
     (T (findmax (cdr L) M))
   )
 )
@@ -70,7 +74,8 @@
   (cond
   ((NULL l) (list))
   ((equal (car L) M) (removemaxb (cdr L) M))
-  (T (cons (car L) (removemaxb (cdr L) M)))
+  ((listp (car L))  (cons (removemaxb (car L) M) (removemaxb (cdr L) M) ))
+  (T  (cons (car L) (removemaxb (cdr L) M)) )
   )
 )
 (defun removemax(L)

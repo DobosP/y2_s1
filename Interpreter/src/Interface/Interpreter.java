@@ -16,7 +16,7 @@ class Interpreter {
         MyIntList<Integer> list = new MyList<Integer>();
         IntFileTable filetable = new FileTable();
         IntHeap heap = new Heap();
-        return new ProgState(stack, dict, list, filetable, heap, 1, state);
+        return new ProgState(stack, dict, list, filetable, heap, state);
 
     }
 
@@ -87,10 +87,10 @@ class Interpreter {
                         )
 
                     ),
-                        new CompStatement(
+                        new forkStmt (new CompStatement(
                                 new PrintStatement(new VarExpresion("v")),
                                 new PrintStatement(new rH("a"))
-                        )
+                        ))
                 )
         );
 

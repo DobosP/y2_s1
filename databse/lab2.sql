@@ -209,7 +209,7 @@ SELECT DISTINCT A.name, A.id FROM(
 
 -- H
 
-SELECT sa.experience, AVG(sa.grade_of_interes) AS greade_of_interes
+SELECT sa.experience, p.id, p.area_id AS greade_of_interes
 FROM person as p
 INNER JOIN sport_activity as sa
 on p.id = sa.id

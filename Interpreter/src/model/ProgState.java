@@ -11,21 +11,22 @@ public class ProgState {
     IntFileTable filetable;
     IntHeap heap;
     Integer id;
+    static Integer id_count = 1;
     public ProgState(MyIntStack<IntStatement> stack,
               MyIntDict<String, Integer> dict,
               MyIntList<Integer> list,
               IntFileTable _fileTable,
               IntHeap _heap,
-              Integer _id,
               IntStatement statement){
         execStack = stack;
         symTable = dict;
         out = list;
         filetable = _fileTable;
         heap = _heap;
-        id = _id;
+        id = id_count;
         originalProgram = statement;
         execStack.push(statement);
+        id_count += 1;
     }
 
     public void setId(Integer _id) {this.id = _id; }
