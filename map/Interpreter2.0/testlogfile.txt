@@ -1,0 +1,56 @@
+Program state 
+ExecStack:
+closeFile var_f
+(openFile test.in in var_f;(readFile var_f in var_c;print(var_c)))
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+closeFile var_f
+(readFile var_f in var_c;print(var_c))
+openFile test.in in var_f
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+closeFile var_f
+(readFile var_f in var_c;print(var_c))
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+print(var_c)
+readFile var_f in var_c
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+print(var_c)
+SymTable
+var_f-->0
+var_c-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable

@@ -5,6 +5,6 @@ namespace Repository
     {
         void addPrgState(ProgState prog);
         void logPrgStateExec(int index);
-        ProgState getPrgList(int index); 
+        ProgState getPrg(int index); 
     }
 }

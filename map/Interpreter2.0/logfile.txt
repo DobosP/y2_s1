@@ -1,0 +1,95 @@
+Program stateExecStack:
+(b=a+1;print(b))
+a=2+3*5
+SymTable
+Out
+FileTableProgram stateExecStack:
+(b=a+1;print(b))
+SymTable
+a-->17
+Out
+FileTableProgram stateExecStack:
+print(b)
+b=a+1
+SymTable
+a-->17
+Out
+FileTableProgram stateExecStack:
+print(b)
+SymTable
+a-->17
+b-->18
+Out
+FileTableProgram stateExecStack:
+SymTable
+a-->17
+b-->18
+Out
+18
+FileTableProgram state 
+ExecStack:
+(b=a+1;print(b))
+a=2+3*5
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(b=a+1;print(b))
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+b=a+1
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+SymTable
+a-->17
+b-->18
+Out
+FileTableProgram state 
+ExecStack:
+SymTable
+a-->17
+b-->18
+Out
+18
+FileTableProgram state 
+ExecStack:
+(b=a+1;print(b))
+a=2+3*5
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(b=a+1;print(b))
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+b=a+1
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+SymTable
+a-->17
+b-->18
+Out
+FileTableProgram state 
+ExecStack:
+SymTable
+a-->17
+b-->18
+Out
+18
+FileTable

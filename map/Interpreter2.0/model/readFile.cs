@@ -38,7 +38,7 @@ namespace models
             }
             int value = 0;
 
-            if(line == ""){
+            if(line != ""){
                 value = Int32.Parse(line);
             }
 

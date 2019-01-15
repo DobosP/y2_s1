@@ -36,7 +36,7 @@ namespace models
         }
 
         public MyIntList<int> getOut() {
-            return out;
+            return output;
         }
 
         public IntStatement getOriginalProgram() {
@@ -45,16 +45,15 @@ namespace models
 
         public IntFileTable getFileTable() { return filetable; }
 
-        public  IntHeap getHeap() { return heap; }
+       
 
-        public String toString(){
+        override public String ToString(){
             String msg = "";
-            msg += "Program state id: " + id.toString() + "\n";
-            msg += execStack.toString() + "\n";
-            msg += symTable.toString() + "\n";
-            msg += out.toString() + "\n";
-            msg += heap.toString() + "\n";
-            msg += filetable.toString();
+            msg += "Program state \n";
+            msg += execStack.ToString() + "\n";
+            msg += symTable.ToString() + "\n";
+            msg += output.ToString() + "\n";
+            msg += filetable.ToString();
             return msg;
         }
 

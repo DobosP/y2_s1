@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81eed88-0929-4ff2-a6d2-d4c0e6cfdc76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Interpreter/Interface/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter/Interface/Interpreter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Interpreter/model/ProgState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter/model/ProgState.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Interpreter/model/forkStmt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Interpreter/model/forkStmt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProgState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProgState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/forkStmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/forkStmt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../compnetworks.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../databse/lab2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../databse/lab2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lsp/lab4/listlcm.lisp" beforeDir="false" afterPath="$PROJECT_DIR$/../lsp/lab4/listlcm.lisp" afterDir="false" />
-    </list>
+    <list default="true" id="b81eed88-0929-4ff2-a6d2-d4c0e6cfdc76" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -389,7 +377,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545150459520" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/workplace/y2_s1/Interpreter" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -463,7 +451,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16999201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

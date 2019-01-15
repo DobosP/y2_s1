@@ -15,7 +15,6 @@ namespace models
             return val;
         }
 
-   
         override public String ToString() {
             return this.val.ToString();
         }

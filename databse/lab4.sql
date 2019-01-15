@@ -298,6 +298,9 @@ END
 
 drop PROCEDURE test_all
 
+
+use MyActivity
+go
 EXECUTE test_all
 
 SELECT * from view_test_data

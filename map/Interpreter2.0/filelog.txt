@@ -1,0 +1,261 @@
+Program state 
+ExecStack:
+(b=a+1;print(b))
+a=2+3*5
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(b=a+1;print(b))
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+b=a+1
+SymTable
+a-->17
+Out
+FileTableProgram state 
+ExecStack:
+print(b)
+SymTable
+a-->17
+b-->18
+Out
+FileTableProgram state 
+ExecStack:
+SymTable
+a-->17
+b-->18
+Out
+18
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+(openFile test.in in var_f;(readFile var_f in var_c;print(var_c)))
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+(readFile var_f in var_c;print(var_c))
+openFile test.in in var_f
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+(openFile test.in in var_f;(readFile var_f in var_c;print(var_c)))
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+(readFile var_f in var_c;print(var_c))
+openFile test.in in var_f
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+(readFile var_f in var_c;print(var_c))
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+print(var_c)
+readFile var_f in var_c
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+print(var_c)
+SymTable
+var_f-->0
+var_c-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));(closeFile var_f;closeFile var_f))
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(closeFile var_f;closeFile var_f)
+IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0))
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(closeFile var_f;closeFile var_f)
+print(0)
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(closeFile var_f;closeFile var_f)
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+closeFile var_f
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+0
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(openFile test.in in var_f;(readFile var_f2 in var_c;print(var_c)))
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(readFile var_f2 in var_c;print(var_c))
+openFile test.in in var_f
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(readFile var_f2 in var_c;print(var_c))
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+print(var_c)
+readFile var_f2 in var_c
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(openFile test.in in var_f;(readFile var_f in var_c;print(var_c)))
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(readFile var_f in var_c;print(var_c))
+openFile test.in in var_f
+SymTable
+Out
+FileTableProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+(readFile var_f in var_c;print(var_c))
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+print(var_c)
+readFile var_f in var_c
+SymTable
+var_f-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+print(var_c)
+SymTable
+var_f-->0
+var_c-->0
+Out
+FileTable
+0-->test.inProgram state 
+ExecStack:
+(IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0));closeFile var_f)
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+IF(var_c)THEN((readFile var_f in var_c;print(var_c)))ELSE(print(0))
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+print(0)
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+closeFile var_f
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+0
+FileTable
+0-->test.inProgram state 
+ExecStack:
+SymTable
+var_f-->0
+var_c-->0
+Out
+0
+0
+FileTable
