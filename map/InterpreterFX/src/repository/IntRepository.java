@@ -12,4 +12,5 @@ public interface IntRepository {
     void logPrgStateExec(ProgState prg) throws  MyException;
     List<ProgState> getPrgList();
     void setPrgList(List <ProgState> prg);
+    ProgState getProgState(int id);
 }

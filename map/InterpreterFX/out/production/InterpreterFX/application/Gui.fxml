@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GuiController">
+  <children>
+    <TextField fx:id="program_id" layoutX="14.0" layoutY="14.0" prefWidth="200.0" />
+    <TableView fx:id="heap_table" layoutX="32.0" layoutY="76.0" prefHeight="232.00009999999747" prefWidth="182.00009999999747">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="89.0" text="adress" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="111.0" text="value" />
+      </columns>
+    </TableView>
+    <Label layoutX="28.0" layoutY="60.0" prefWidth="183.0" text="            HeapTable" />
+    <ListView fx:id="out_table" layoutX="309.0" layoutY="76.0" prefHeight="233.0" prefWidth="183.0" />
+    <Label layoutX="309.0" layoutY="56.0" prefWidth="183.0" text="                 Out" />
+    <TableView fx:id="file_table" layoutX="28.0" layoutY="343.0" prefHeight="232.00009999999747" prefWidth="182.00009999999747">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="89.0" text="identifier" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="111.0" text="file name" />
+      </columns>
+    </TableView>
+    <Label layoutX="24.0" layoutY="327.0" prefWidth="183.0" text="               FileTable" />
+    <ListView id="out_table" fx:id="prog_state_table" layoutX="572.0" layoutY="72.0" onMouseClicked="#selected_state" prefHeight="233.0" prefWidth="183.0" />
+    <Label layoutX="572.0" layoutY="52.0" prefWidth="183.0" text="           ProgState" />
+    <TableView fx:id="sym_table" layoutX="313.0" layoutY="351.0" prefHeight="232.00009999999747" prefWidth="182.00009999999747">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="89.0" text="name" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="111.0" text="value" />
+      </columns>
+    </TableView>
+    <Label layoutX="309.0" layoutY="335.0" prefWidth="183.0" text="              Symtable" />
+    <ListView id="out_table" fx:id="exec_stack_table" layoutX="572.0" layoutY="355.0" prefHeight="233.0" prefWidth="183.0" />
+    <Label layoutX="572.0" layoutY="335.0" prefWidth="183.0" text="          ExecStack" />
+    <Button fx:id="one_step_button" layoutX="388.0" layoutY="14.0" mnemonicParsing="false" onAction="#run_one_step" prefWidth="163.0" text="Run one step" />
+  </children>
+</AnchorPane>

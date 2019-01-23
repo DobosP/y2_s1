@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="798.0" prefWidth="786.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="application.ProgramStateController">
+  <children>
+    <TextArea fx:id="prgStateNumber" layoutX="30.0" layoutY="14.0" prefWidth="200.0" text="Prg States:" />
+    <TableView fx:id="heapTableView" layoutX="30.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="102.0" text="Address" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="126.0" text="Value" />
+      </columns>
+    </TableView>
+    <ListView fx:id="outView" layoutX="30.0" layoutY="342.0" prefHeight="200.0" prefWidth="200.0" />
+    <ListView fx:id="exeStackView" layoutX="475.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0" />
+    <Button fx:id="runOneStepButton" id="runOneStepButton" layoutX="30.0" layoutY="625.0" mnemonicParsing="false" prefHeight="81.0" prefWidth="598.0" text="Run One Step" />
+    <TextArea layoutX="30.0" layoutY="66.0" prefHeight="22.0" prefWidth="200.0" text="Heap Table&#10;" wrapText="true" />
+    <TextArea layoutX="260.0" layoutY="66.0" prefHeight="22.0" prefWidth="200.0" text="Sym Table" wrapText="true" />
+    <TextArea layoutX="30.0" layoutY="309.0" prefHeight="22.0" prefWidth="200.0" text="Out" wrapText="true" />
+    <TableView fx:id="fileTableView" layoutX="260.0" layoutY="342.0" prefHeight="200.0" prefWidth="200.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="101.0" text="Identifier" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="98.0" text="Filename" />
+      </columns>
+    </TableView>
+    <TextArea layoutX="260.0" layoutY="309.0" prefHeight="22.0" prefWidth="200.0" text="File Table" wrapText="true" />
+    <TableView fx:id="symTableView" layoutX="260.0" layoutY="99.0" prefHeight="200.0" prefWidth="200.0">
+      <columns>
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="107.0" text="Variable name" />
+        <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="92.0" text="Value" />
+      </columns>
+    </TableView>
+    <TextArea layoutX="475.0" layoutY="66.0" prefHeight="22.0" prefWidth="200.0" text="Exe Stack&#10;" wrapText="true" />
+    <ListView fx:id="programStatesIds" id="programStatesIds" layoutX="475.0" layoutY="342.0" prefHeight="200.0" prefWidth="200.0" />
+    <TextArea layoutX="475.0" layoutY="309.0" prefHeight="22.0" prefWidth="200.0" text="Program States IDs" wrapText="true" />
+  </children>
+</AnchorPane>

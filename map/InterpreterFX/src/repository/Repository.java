@@ -49,6 +49,14 @@ public class Repository implements IntRepository {
         list.setList(new_list);
     }
 
+    @Override
+    public ProgState getProgState(int id) {
+        for(ProgState state: this.list.getAll()){
+            if(state.getId() == id)
+                return  state;
+        }
+        return null;
+    }
 
 
 }

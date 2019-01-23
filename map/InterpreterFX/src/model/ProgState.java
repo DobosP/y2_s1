@@ -76,7 +76,7 @@ public class ProgState {
         msg += symTable.toString() + "\n";
         msg += out.toString() + "\n";
         msg += heap.toString() + "\n";
-        msg += filetable.toString();
+        msg += filetable.toString() + "\n";
         return msg;
     }
 
