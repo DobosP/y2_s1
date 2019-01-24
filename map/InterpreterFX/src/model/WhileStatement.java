@@ -24,7 +24,7 @@ public class WhileStatement implements IntStatement{
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer> symt = state.getSymTable();
+        MyIntDict<String, Integer> symt = state.getSymTable().top();
         IntHeap heap = state.getHeap();
         MyIntStack<IntStatement> stack = state.getExecStack();
 

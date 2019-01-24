@@ -8,7 +8,6 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import DataStructure.*;
-import controller.Controller;
 import model.*;
 import repository.IntRepository;
 import repository.Repository;

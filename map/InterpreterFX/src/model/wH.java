@@ -20,7 +20,7 @@ public class wH implements IntStatement {
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer> symtable = state.getSymTable();
+        MyIntDict<String, Integer> symtable = state.getSymTable().top();
         IntHeap heap = state.getHeap();
         int address;
         try{

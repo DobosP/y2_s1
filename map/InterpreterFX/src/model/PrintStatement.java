@@ -22,7 +22,7 @@ public class PrintStatement implements IntStatement {
         MyIntList<Integer> out = state.getOut();
         IntHeap heap = state.getHeap();
         try {
-            out.add(exp.eval(state.getSymTable(), heap));
+            out.add(exp.eval(state.getSymTable().top(), heap));
         }
         catch(MyException e) {
             throw e;

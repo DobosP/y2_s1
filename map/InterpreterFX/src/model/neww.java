@@ -21,7 +21,7 @@ public class neww implements IntStatement{
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer>  symTable = state.getSymTable();
+        MyIntDict<String, Integer>  symTable = state.getSymTable().top();
         IntHeap heap = state.getHeap();
         int val;
         try{

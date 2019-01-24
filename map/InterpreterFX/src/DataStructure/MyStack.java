@@ -28,6 +28,16 @@ public class MyStack<T> implements MyIntStack<T> {
     }
 
     @Override
+    public T top() {
+        return stack.peek();
+    }
+
+    @Override
+    public Stack<T> getStack() {
+        return stack;
+    }
+
+    @Override
     public String toString() {
         String printstr = new String();
         printstr += "ExecStack:";

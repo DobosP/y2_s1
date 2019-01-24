@@ -2,7 +2,7 @@ package application;
 
 import DataStructure.*;
 import ExceptionHandling.MyException;
-import controller.Controller;
+
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
@@ -82,7 +82,7 @@ public class GuiController implements Initializable {
 
         ObservableList<Pair<String,Integer>> symtable = FXCollections.observableArrayList();
 
-        Map<String, Integer> sym_map = state.getSymTable().getContent();
+        Map<String, Integer> sym_map = state.getSymTable().top().getContent();
         sym_map.keySet().forEach(key ->
         {
             symtable.add(new Pair<String, Integer>(key, sym_map.get(key)));
@@ -148,7 +148,8 @@ public class GuiController implements Initializable {
     public  ProgState createProgState(IntStatement state){
 
         MyIntStack<IntStatement> stack = new MyStack<IntStatement>();
-        MyIntDict<String, Integer> dict = new MyDict<String, Integer>();
+        MyIntStack< MyIntDict<String, Integer>> dict = new MyStack<>();
+        dict.push(new MyDict<>());
         MyIntList<Integer> list = new MyList<Integer>();
         IntFileTable filetable = new FileTable();
         IntHeap heap = new Heap();
@@ -190,7 +191,7 @@ public class GuiController implements Initializable {
 
         prgList.get(0).getHeap().setContent(
                 conservativeGarbageCollector(
-                        prgList.get(0).getSymTable().getContent().values(),
+                        prgList.get(0).getSymTable().top().getContent().values(),
                         prgList.get(0).getHeap().getContent()));
 
         prgList.forEach(prg -> {

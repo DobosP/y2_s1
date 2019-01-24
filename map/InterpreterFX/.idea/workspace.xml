@@ -2,18 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/sleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tester/tester.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lgoFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lgoFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/MyIntStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/MyIntStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/Interface/AllStepsCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/Interface/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/Interface/ExitCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/Interface/Interpreter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/Interface/TextMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/application/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/application/Gui.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/application/GuiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/application/GuiController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/application/StartPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/application/StartPageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/AssignStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/AssignStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/IfStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/IfStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/PrintStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/PrintStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/ProgState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/ProgState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/WhileStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/WhileStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/closeRFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/closeRFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/forkStmt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/forkStmt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/neww.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/neww.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/openRFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/openRFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/readFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/readFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/InterpreterFX/model/wH.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/InterpreterFX/model/wH.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/MyIntStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/MyIntStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructure/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructure/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/AllStepsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/ExitCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/Interpreter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/TextMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/GuiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/GuiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/StartPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/StartPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AssignStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AssignStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/IfStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/IfStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/PrintStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/PrintStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ProgState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ProgState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/WhileStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/WhileStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/closeRFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/closeRFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/forkStmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/forkStmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/neww.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/neww.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/openRFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/openRFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/readFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/readFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/wH.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/wH.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,162 +103,77 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.21854305">
+    <splitter split-orientation="horizontal" split-proportion="0.5016538">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/WhileStatement.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/ArithExpresion.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/Interface/AllStepsCommand.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/Interface/Command.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/FileTable.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/Heap.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/IntFileTable.class">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/MyIntStack.class">
+            <entry file="file://$PROJECT_DIR$/src/application/GuiController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="119">
+                  <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/IfStatement.java">
+            <entry file="file://$PROJECT_DIR$/src/application/Gui.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="22" selection-start-line="22" selection-end-line="22" />
+                <state relative-caret-position="-83">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyStack.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="97">
+                  <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#500#501#0" expanded="true" />
+                    <element signature="e#535#536#0" expanded="true" />
+                    <element signature="e#583#584#0" expanded="true" />
+                    <element signature="e#611#612#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/Expresion.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/model/ProgState.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="51" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/model/forkStmt.java">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Interface/Interpreter.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="39" column="141" selection-start-line="34" selection-start-column="10" selection-end-line="39" selection-end-column="141" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="120">
+                  <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/application/StartPage.java">
+            <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="29" column="17" selection-start-line="29" selection-end-line="32" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="method#start#0;class#StartPage#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/sleep.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#301#302#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/application/StartPageController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/BoolExpresion.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/ArithExpresion.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-45">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/AssignStatement.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/model/CompStatement.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntStack.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+                <state relative-caret-position="555">
+                  <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -234,6 +183,109 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="135">
                   <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/Pair.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/application/StartPageController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/IntFileTable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/Heap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/FileTable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntStack.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntDict.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/MyDict.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="226">
+                  <caret line="65" column="32" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="32" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/DataStructure/IntHeap.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -258,6 +310,7 @@
       <find>heap_t</find>
       <find>executor</find>
       <find>catch (My</find>
+      <find>clone</find>
     </findStrings>
   </component>
   <component name="FindManager">
@@ -278,16 +331,28 @@
         <option value="$PROJECT_DIR$/src/aplication/StartPage.java" />
         <option value="$PROJECT_DIR$/src/application/StartPage.java" />
         <option value="$PROJECT_DIR$/src/application/StartPage.fxml" />
-        <option value="$PROJECT_DIR$/src/application/Gui.java" />
-        <option value="$PROJECT_DIR$/src/model/ProgState.java" />
         <option value="$PROJECT_DIR$/src/repository/IntRepository.java" />
         <option value="$PROJECT_DIR$/src/repository/Repository.java" />
         <option value="$PROJECT_DIR$/src/DataStructure/Pair.java" />
         <option value="$PROJECT_DIR$/src/application/Gui.fxml" />
-        <option value="$PROJECT_DIR$/src/application/GuiController.java" />
         <option value="$PROJECT_DIR$/test.in" />
         <option value="$PROJECT_DIR$/src/model/sleep.java" />
+        <option value="$PROJECT_DIR$/src/DataStructure/MyIntStack.java" />
+        <option value="$PROJECT_DIR$/src/DataStructure/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/model/WhileStatement.java" />
+        <option value="$PROJECT_DIR$/src/model/wH.java" />
+        <option value="$PROJECT_DIR$/src/model/readFile.java" />
+        <option value="$PROJECT_DIR$/src/model/PrintStatement.java" />
+        <option value="$PROJECT_DIR$/src/model/openRFile.java" />
+        <option value="$PROJECT_DIR$/src/model/neww.java" />
+        <option value="$PROJECT_DIR$/src/model/IfStatement.java" />
+        <option value="$PROJECT_DIR$/src/model/closeRFile.java" />
+        <option value="$PROJECT_DIR$/src/model/AssignStatement.java" />
+        <option value="$PROJECT_DIR$/src/model/ProgState.java" />
+        <option value="$PROJECT_DIR$/src/application/GuiController.java" />
         <option value="$PROJECT_DIR$/src/application/StartPageController.java" />
+        <option value="$PROJECT_DIR$/src/application/Gui.java" />
+        <option value="$PROJECT_DIR$/src/model/forkStmt.java" />
       </list>
     </option>
   </component>
@@ -329,7 +394,7 @@
               <item name="InterpreterFX" type="b2602c69:ProjectViewProjectNode" />
               <item name="InterpreterFX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="DataStructure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="InterpreterFX" type="b2602c69:ProjectViewProjectNode" />
@@ -342,6 +407,12 @@
               <item name="InterpreterFX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterpreterFX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterpreterFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +431,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548313607289" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548315700256" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="/opt/JavaFXSceneBuilder1.1/JavaFXSceneBuilder1.1" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -537,7 +608,7 @@
       <window_info anchor="bottom" id="Changes" order="11" />
       <window_info anchor="bottom" id="Profiler" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32843137" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
@@ -555,7 +626,7 @@
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.13886672" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.27613726" />
       <window_info id="Structure" order="5" weight="0.25" />
       <window_info id="Favorites" order="6" />
       <window_info anchor="bottom" id="Terminal" order="0" />
@@ -595,209 +666,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DataStructure/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="18" selection-start-line="18" selection-end-line="24" />
-          <folding>
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructure/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/PrintStatement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="265" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/java/jdk1.8.0_201/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="623" selection-start-line="623" selection-end-line="623" />
-          <folding>
-            <element signature="e#25341#25342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/rH.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/closeRFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/openRFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/BoolExpresion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2255#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/closeRFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/CompStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#777#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/ConstExpresion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <folding>
-            <element signature="e#0#551#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/Expresion.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <folding>
-            <element signature="e#0#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/forkStmt.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <folding>
-            <element signature="e#0#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/IfStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <folding>
-            <element signature="e#0#1249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/neww.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <folding>
-            <element signature="e#0#969#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/openRFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1420#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/PrintStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <folding>
-            <element signature="e#0#802#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/ProgState.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-765">
-          <folding>
-            <element signature="e#0#2893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/readFile.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#1874#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/rH.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/VarExpresion.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/model/wH.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -822,23 +690,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/InterpreterFX/DataStructure/IntFileTable.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/application/GuiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructure/IntFileTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/application/Gui.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
@@ -851,34 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
           <caret line="92" column="2" selection-start-line="92" selection-start-column="2" selection-end-line="92" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ProgState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/repository/IntRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -910,10 +733,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/CompStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/model/WhileStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state>
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/wH.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -928,44 +758,257 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/IfStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/model/rH.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="232">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/forkStmt.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/model/readFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/AssignStatement.java">
+    <entry file="file://$PROJECT_DIR$/src/model/PrintStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/openRFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/neww.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="23" column="72" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/VarExpresion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ConstExpresion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/CompStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/closeRFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/BoolExpresion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="-615">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/AssignStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ArithExpresion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
+        <state relative-caret-position="-173">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/IntStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/IfStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="31" column="68" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Expresion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repository/Repository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/repository/IntRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyIntDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/IntHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/IntFileTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="86" column="56" selection-start-line="86" selection-start-column="56" selection-end-line="86" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/FileTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Interface/AllStepsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/application/StartPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/GuiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/application/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataStructure/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ProgState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/forkStmt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
         </state>
       </provider>
     </entry>

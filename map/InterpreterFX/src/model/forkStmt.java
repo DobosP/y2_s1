@@ -1,8 +1,10 @@
 package model;
 
+import DataStructure.MyIntDict;
 import DataStructure.MyIntStack;
 import DataStructure.MyStack;
 import ExceptionHandling.MyException;
+import sun.security.util.Length;
 
 public class forkStmt implements IntStatement {
 
@@ -20,9 +22,17 @@ public class forkStmt implements IntStatement {
     @Override
     public ProgState execute(ProgState state) throws MyException {
         MyIntStack<IntStatement> new_stack = new MyStack<IntStatement>();
+        MyIntStack<MyIntDict<String, Integer>> symTablestack = state.getSymTable();
+        MyIntStack<MyIntDict<String, Integer>> symTablestackclone = new MyStack<>();
+
+        for (int i = symTablestack.getStack().size() - 1; i >= 0; i--){
+            symTablestackclone.push(symTablestack.getStack().get(i).clone());
+        }
+
+
         ProgState new_state = new ProgState(
                 new_stack,
-                state.symTable.clone(),
+                symTablestackclone,
                 state.getOut(),
                 state.getFileTable(),
                 state.getHeap(),

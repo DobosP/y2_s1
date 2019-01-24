@@ -21,7 +21,7 @@ public class AssignStatement implements IntStatement  {
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer> tabel = state.getSymTable();
+        MyIntDict<String, Integer> tabel = state.getSymTable().top();
         IntHeap heap = state.getHeap();
         int val;
 

@@ -24,7 +24,7 @@ public class readFile implements IntStatement{
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer> symtable = state.getSymTable();
+        MyIntDict<String, Integer> symtable = state.getSymTable().top();
         IntFileTable filetable = state.getFileTable();
 
         if(!symtable.exists(exp_file_id)){

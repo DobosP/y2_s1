@@ -29,7 +29,7 @@ public class IfStatement implements  IntStatement{
 
     @Override
     public ProgState execute(ProgState state) throws MyException {
-        MyIntDict<String, Integer> tabel = state.getSymTable();
+        MyIntDict<String, Integer> tabel = state.getSymTable().top();
         MyIntStack<IntStatement> stack = state.getExecStack();
         IntHeap heap = state.getHeap();
         int val;

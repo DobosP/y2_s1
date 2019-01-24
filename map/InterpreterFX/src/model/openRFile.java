@@ -39,7 +39,7 @@ public class openRFile implements IntStatement {
             throw new MyException("Invalid path");
         }
         int index = fileTable.add(new Pair(filename, reader));
-        MyIntDict<String, Integer> symtable = state.getSymTable();
+        MyIntDict<String, Integer> symtable = state.getSymTable().top();
         symtable.add(var_file_id, index);
         return null;
     }

@@ -5,7 +5,7 @@ import ExceptionHandling.MyException;
 
 public class ProgState {
     MyIntStack<IntStatement> execStack;
-    MyIntDict<String, Integer> symTable;
+    MyIntStack< MyIntDict<String, Integer>> symTablestack;
     MyIntList<Integer> out;
     IntStatement originalProgram;
     IntFileTable filetable;
@@ -13,13 +13,13 @@ public class ProgState {
     Integer id;
     static Integer id_count = 1;
     public ProgState(MyIntStack<IntStatement> stack,
-              MyIntDict<String, Integer> dict,
+                     MyIntStack< MyIntDict<String, Integer>> symstack,
               MyIntList<Integer> list,
               IntFileTable _fileTable,
               IntHeap _heap,
               IntStatement statement){
         execStack = stack;
-        symTable = dict;
+        symTablestack = symstack;
         out = list;
         filetable = _fileTable;
         heap = _heap;
@@ -37,9 +37,7 @@ public class ProgState {
         this.execStack = execStack;
     }
 
-    public void setSymTable(MyIntDict<String, Integer> symTable) {
-        this.symTable = symTable;
-    }
+
 
     public void setOut(MyIntList<Integer> out) {
         this.out = out;
@@ -53,8 +51,8 @@ public class ProgState {
         return execStack;
     }
 
-    public MyIntDict<String, Integer> getSymTable() {
-        return symTable;
+    public MyIntStack< MyIntDict<String, Integer>> getSymTable() {
+        return symTablestack;
     }
 
     public MyIntList<Integer> getOut() {
@@ -73,7 +71,7 @@ public class ProgState {
         String msg = "";
         msg += "Program state id: " + id.toString() + "\n";
         msg += execStack.toString() + "\n";
-        msg += symTable.toString() + "\n";
+        msg += symTablestack.toString() + "\n";
         msg += out.toString() + "\n";
         msg += heap.toString() + "\n";
         msg += filetable.toString() + "\n";

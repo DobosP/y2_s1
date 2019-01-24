@@ -1,7 +1,6 @@
 package application;
 
 import DataStructure.*;
-import controller.Controller;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
