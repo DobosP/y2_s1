@@ -5399,3 +5399,731 @@ Out
 20
 Heap
 FileTable
+Program state id: 1
+ExecStack:
+(((v=10;(new v=20;new a=30));update a=30);(print(a);(print(readH a);(a=4;print(readH a)))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+((v=10;(new v=20;new a=30));update a=30)
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+((v=10;(new v=20;new a=30));update a=30)
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(v=10;(new v=20;new a=30))
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(v=10;(new v=20;new a=30))
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+v=10
+(new v=20;new a=30)
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+v=10
+(new v=20;new a=30)
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(new v=20;new a=30)
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(new v=20;new a=30)
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+new v=20
+new a=30
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+new v=20
+new a=30
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+new a=30
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->1
+Out
+Heap
+1-->20
+FileTable
+Program state id: 1
+ExecStack:
+new a=30
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+v-->1
+Out
+Heap
+1-->20
+FileTable
+Program state id: 1
+ExecStack:
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+update a=30
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(print(a);(print(readH a);(a=4;print(readH a))))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(a)
+(print(readH a);(a=4;print(readH a)))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(a)
+(print(readH a);(a=4;print(readH a)))
+SymTable
+a-->2
+v-->1
+Out
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(print(readH a);(a=4;print(readH a)))
+SymTable
+a-->2
+v-->1
+Out
+2
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(print(readH a);(a=4;print(readH a)))
+SymTable
+a-->2
+v-->1
+Out
+2
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(readH a)
+(a=4;print(readH a))
+SymTable
+a-->2
+v-->1
+Out
+2
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(readH a)
+(a=4;print(readH a))
+SymTable
+a-->2
+v-->1
+Out
+2
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(a=4;print(readH a))
+SymTable
+a-->2
+v-->1
+Out
+2
+30
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+(a=4;print(readH a))
+SymTable
+a-->2
+v-->1
+Out
+2
+30
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+a=4
+print(readH a)
+SymTable
+a-->2
+v-->1
+Out
+2
+30
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+a=4
+print(readH a)
+SymTable
+a-->2
+v-->1
+Out
+2
+30
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(readH a)
+SymTable
+a-->4
+v-->1
+Out
+2
+30
+Heap
+1-->20
+2-->30
+FileTable
+Program state id: 1
+ExecStack:
+print(readH a)
+SymTable
+a-->4
+v-->1
+Out
+2
+30
+Heap
+1-->20
+FileTable
+Program state id: 1
+ExecStack:
+(v=10;(fork((v=v+1;(v=v+1;print(v))));(sleep(10);print(v*10))))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+v=10
+(fork((v=v+1;(v=v+1;print(v))));(sleep(10);print(v*10)))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+v=10
+(fork((v=v+1;(v=v+1;print(v))));(sleep(10);print(v*10)))
+SymTable
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(fork((v=v+1;(v=v+1;print(v))));(sleep(10);print(v*10)))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(fork((v=v+1;(v=v+1;print(v))));(sleep(10);print(v*10)))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+fork((v=v+1;(v=v+1;print(v))))
+(sleep(10);print(v*10))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+fork((v=v+1;(v=v+1;print(v))))
+(sleep(10);print(v*10))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(sleep(10);print(v*10))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+(v=v+1;(v=v+1;print(v)))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+(sleep(10);print(v*10))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+(v=v+1;(v=v+1;print(v)))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(10)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+v=v+1
+(v=v+1;print(v))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(10)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+v=v+1
+(v=v+1;print(v))
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(9)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+(v=v+1;print(v))
+SymTable
+v-->11
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(9)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+(v=v+1;print(v))
+SymTable
+v-->11
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(8)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+v=v+1
+print(v)
+SymTable
+v-->11
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(8)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+v=v+1
+print(v)
+SymTable
+v-->11
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(7)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+print(v)
+SymTable
+v-->12
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(7)
+print(v*10)
+SymTable
+v-->10
+Out
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+print(v)
+SymTable
+v-->12
+Out
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(6)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 2
+ExecStack:
+SymTable
+v-->12
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(6)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(5)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(5)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(4)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(4)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(3)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(3)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(2)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(2)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(1)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(1)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(0)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+sleep(0)
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+print(v*10)
+SymTable
+v-->10
+Out
+12
+Heap
+FileTable
+Program state id: 1
+ExecStack:
+SymTable
+v-->10
+Out
+12
+100
+Heap
+FileTable
