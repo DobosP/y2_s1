@@ -10,6 +10,7 @@ public class ProgState {
     IntStatement originalProgram;
     IntFileTable filetable;
     IntHeap heap;
+    IntProcTable procTable;
     Integer id;
     static Integer id_count = 1;
     public ProgState(MyIntStack<IntStatement> stack,
@@ -17,6 +18,7 @@ public class ProgState {
               MyIntList<Integer> list,
               IntFileTable _fileTable,
               IntHeap _heap,
+              IntProcTable _proctabe,
               IntStatement statement){
         execStack = stack;
         symTablestack = symstack;
@@ -24,6 +26,7 @@ public class ProgState {
         filetable = _fileTable;
         heap = _heap;
         id = id_count;
+        procTable = _proctabe;
         originalProgram = statement;
         execStack.push(statement);
         id_count += 1;
@@ -67,6 +70,8 @@ public class ProgState {
 
     public  IntHeap getHeap() { return heap; }
 
+    public IntProcTable getProgTable() {return procTable;}
+
     public String toString(){
         String msg = "";
         msg += "Program state id: " + id.toString() + "\n";
@@ -75,6 +80,7 @@ public class ProgState {
         msg += out.toString() + "\n";
         msg += heap.toString() + "\n";
         msg += filetable.toString() + "\n";
+        msg += procTable.toString() + "\n";
         return msg;
     }
 

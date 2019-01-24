@@ -18,9 +18,11 @@ import repository.Repository;
 public class Gui extends Application{
 
     private IntStatement statement;
+    private IntProcTable progtable;
 
-    public  Gui(IntStatement _statement){
+    public  Gui(IntStatement _statement, IntProcTable _progtable){
         statement = _statement;
+        progtable = _progtable;
     }
 
     @Override
@@ -29,7 +31,7 @@ public class Gui extends Application{
         Parent root = loader.load();
 
         GuiController controller = loader.getController();
-        controller.SetStatemant(this.statement);
+        controller.SetStatemant(this.statement,this.progtable);
 
         primaryStage.setTitle("Main Window");
         primaryStage.setScene(new Scene(root));

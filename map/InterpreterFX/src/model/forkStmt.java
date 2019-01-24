@@ -36,6 +36,7 @@ public class forkStmt implements IntStatement {
                 state.getOut(),
                 state.getFileTable(),
                 state.getHeap(),
+                state.getProgTable(),
                 this.stm
         );
 

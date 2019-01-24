@@ -14,6 +14,8 @@ import repository.IntRepository;
 import repository.Repository;
 
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.ResourceBundle;
 
 
@@ -21,10 +23,28 @@ public class StartPageController implements Initializable {
 
     public Button execute_button;
     public ListView list_statemant;
+    private IntProcTable progtable;
 
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        progtable = new ProcTable();
+
+        IntStatement procst1 = new CompStatement(
+                new AssignStatement("v", new ArithExpresion(1, new VarExpresion("a"), new VarExpresion("b"))),
+                new PrintStatement(new VarExpresion("v"))
+        );
+        IntStatement procst2 = new CompStatement(
+                new AssignStatement("v", new ArithExpresion(3, new VarExpresion("a"), new VarExpresion("b"))),
+                new PrintStatement(new VarExpresion("v"))
+        );
+
+        List<String> var = new ArrayList<>();
+        var.add("a");
+        var.add("b");
+        progtable.put("sum",new Pair<>(var,procst1));
+        progtable.put("product",new Pair<>(var,procst2));
 
         IntStatement fork_st = new CompStatement(
                 new CompStatement(
@@ -101,7 +121,7 @@ public class StartPageController implements Initializable {
     public void click_execute(ActionEvent actionEvent) throws Exception {
 
         Stage gui_stage = new Stage();
-        Gui gui = new Gui((IntStatement) list_statemant.getSelectionModel().getSelectedItem());
+        Gui gui = new Gui((IntStatement) list_statemant.getSelectionModel().getSelectedItem(), progtable);
         gui.start(gui_stage);
         gui_stage.show();
         Stage curr_stage =  (Stage) execute_button.getScene().getWindow();

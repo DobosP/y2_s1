@@ -16,11 +16,9 @@ import repository.IntRepository;
 import repository.Repository;
 
 import java.io.BufferedReader;
+import java.lang.reflect.Array;
 import java.net.URL;
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.ResourceBundle;
+import java.util.*;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -29,6 +27,7 @@ import java.util.stream.Collectors;
 
 public class GuiController implements Initializable {
 
+    public TableView<Pair<String,String>> proc_table;
     private IntRepository rep;
     private ExecutorService executor;
     Integer program_state_id;
@@ -43,6 +42,7 @@ public class GuiController implements Initializable {
     public TableView<Pair<Integer,String>> file_table;
     public TableView<Pair<Integer,Integer>> heap_table;
     private IntStatement statement;
+    private IntProcTable progtable;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -52,6 +52,7 @@ public class GuiController implements Initializable {
         initFileTable();
         initHeapTable();
         initSynTable();
+        initProcTable();
     }
 
 
@@ -104,7 +105,20 @@ public class GuiController implements Initializable {
             filetable.add(new Pair<Integer, String>(key, file_map.get(key).getfirst()));
         });
 
+        ObservableList<Pair<String,String>> proctable = FXCollections.observableArrayList();
 
+        Map<String, Pair<List<String>, IntStatement>> proc_map = state.getProgTable().getConten();
+        proc_map.keySet().forEach(key ->
+        {
+            java.lang.String  itstirng;
+            itstirng = key + "(";
+            for(java.lang.String name: proc_map.get(key).getFirst() )
+                itstirng += name + ",";
+            itstirng = itstirng.substring(0,itstirng.length() - 1) + ") ";
+            proctable.add(new Pair<String, String>(itstirng, proc_map.get(key).toString()));
+        });
+
+        proc_table.setItems(proctable);
         file_table.setItems(filetable);
         heap_table.setItems(heaptable);
         sym_table.setItems(symtable);
@@ -112,7 +126,13 @@ public class GuiController implements Initializable {
         out_table.setItems(out);
         prog_state_table.setItems(ids_list);
     }
+    public void initProcTable(){
+        TableColumn firstcolum = proc_table.getColumns().get(0);
+        firstcolum.setCellValueFactory(new PropertyValueFactory<Pair<String,String>, String>("first"));
+        TableColumn secondcolum = proc_table.getColumns().get(1);
+        secondcolum.setCellValueFactory(new PropertyValueFactory<Pair<String,String>, String>("second"));
 
+    }
 
     public void initSynTable(){
         TableColumn firstcolum = sym_table.getColumns().get(0);
@@ -138,14 +158,15 @@ public class GuiController implements Initializable {
     }
 
 
-    public void SetStatemant(final IntStatement _statement){
+    public void SetStatemant(final IntStatement _statement, IntProcTable _progtable){
         statement = _statement;
-        rep.addPrgState(createProgState(statement));
+        progtable = _progtable;
+        rep.addPrgState(createProgState(statement,progtable));
         program_state_id = 1;
         UpdateView();
     }
 
-    public  ProgState createProgState(IntStatement state){
+    public  ProgState createProgState(IntStatement state, IntProcTable progtable){
 
         MyIntStack<IntStatement> stack = new MyStack<IntStatement>();
         MyIntStack< MyIntDict<String, Integer>> dict = new MyStack<>();
@@ -153,7 +174,7 @@ public class GuiController implements Initializable {
         MyIntList<Integer> list = new MyList<Integer>();
         IntFileTable filetable = new FileTable();
         IntHeap heap = new Heap();
-        return new ProgState(stack, dict, list, filetable, heap, state);
+        return new ProgState(stack, dict, list, filetable, heap,progtable, state);
 
     }
 
