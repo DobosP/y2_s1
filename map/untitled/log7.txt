@@ -1,0 +1,2085 @@
+Id:
+7
+ExeStack:
+((v=10, new(a,22)), (fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a)))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+((v=10, new(a,22)), (fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a)))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+((v=10, new(a,22)), (fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a)))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+((v=10, new(a,22)), (fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a)))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+fork((wH(a,30), (v=32, (print(v), print(rH(a))))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(wH(a,30), (v=32, (print(v), print(rH(a)))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+wH(a,30)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+Key:1 Value:22
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(v=32, (print(v), print(rH(a))))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+v=32
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 10
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+(print(v), print(rH(a)))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+print(v)
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+print(rH(a))
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+70
+ExeStack:
+Sym Table:
+Key: a, Value: 1
+Key: v, Value: 32
+Print output:
+10
+30
+32
+30
+File Table:
+Heap:
+Key:1 Value:30
+
+Id:
+7
+ExeStack:
+((v=10, new(a,22)), (fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a)))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+(v=10, new(a,22))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(fork((wH(a,30), (v=32, (print(v), print(rH(a)))))), (print(v), print(rH(a))))
+new(a,22)
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(v=10, (new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100))))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(a,22), (wH(a,30), (print(a), (a=0, a=100))))
+new(v,20)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(a,22), (wH(a,30), (print(a), (a=0, a=100))))
+new(v,20)
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(a,22), (wH(a,30), (print(a), (a=0, a=100))))
+Sym Table:
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+(new(a,22), (wH(a,30), (print(a), (a=0, a=100))))
+Sym Table:
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+(wH(a,30), (print(a), (a=0, a=100)))
+new(a,22)
+Sym Table:
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+(wH(a,30), (print(a), (a=0, a=100)))
+new(a,22)
+Sym Table:
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+(wH(a,30), (print(a), (a=0, a=100)))
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:22
+
+Id:
+7
+ExeStack:
+(wH(a,30), (print(a), (a=0, a=100)))
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:22
+
+Id:
+7
+ExeStack:
+(print(a), (a=0, a=100))
+wH(a,30)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:22
+
+Id:
+7
+ExeStack:
+(print(a), (a=0, a=100))
+wH(a,30)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:22
+
+Id:
+7
+ExeStack:
+(print(a), (a=0, a=100))
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+(print(a), (a=0, a=100))
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+(a=0, a=100)
+print(a)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+(a=0, a=100)
+print(a)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+(a=0, a=100)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+(a=0, a=100)
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+a=100
+a=0
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+a=100
+a=0
+Sym Table:
+Key: a, Value: 2
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+a=100
+Sym Table:
+Key: a, Value: 0
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+Key:2 Value:30
+
+Id:
+7
+ExeStack:
+a=100
+Sym Table:
+Key: a, Value: 0
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+Sym Table:
+Key: a, Value: 100
+Key: v, Value: 1
+Print output:
+2
+File Table:
+Heap:
+Key:1 Value:20
+
+Id:
+7
+ExeStack:
+(v=10, (new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100))))))
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+v=10
+Sym Table:
+Print output:
+File Table:
+Heap:
+
+Id:
+7
+ExeStack:
+(new(v,20), (new(a,22), (wH(a,30), (print(a), (a=0, a=100)))))
+Sym Table:
+Key: v, Value: 10
+Print output:
+File Table:
+Heap:
+

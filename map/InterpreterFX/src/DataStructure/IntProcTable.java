@@ -12,4 +12,6 @@ public interface IntProcTable {
     void put(String name, Pair<List<String>, IntStatement> val);
 
     Map<String,Pair<List<String>, IntStatement>> getConten();
+
+    boolean exists(String name);
 }

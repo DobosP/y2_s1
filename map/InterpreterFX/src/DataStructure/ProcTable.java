@@ -46,4 +46,9 @@ public class ProcTable implements IntProcTable {
     public Map<String, Pair<List<String>, IntStatement>> getConten() {
         return hash;
     }
+
+    @Override
+    public boolean exists(String name) {
+        return hash.containsKey(name);
+    }
 }

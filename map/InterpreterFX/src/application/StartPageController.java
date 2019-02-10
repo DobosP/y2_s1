@@ -111,7 +111,45 @@ public class StartPageController implements Initializable {
 
         );
 
-        ObservableList<IntStatement> items = FXCollections.observableArrayList(fork_st, sleep_state);
+
+        IntStatement procstate = new CompStatement(
+                new CompStatement(
+                        new CompStatement(
+                                new AssignStatement("v", new ConstExpresion(2) ),
+                                new AssignStatement("w", new ConstExpresion(5) )
+                        ),
+
+                        new CompStatement(
+                                new call(
+                                       "sum",
+                                       new ArrayList<Expresion>() {{add(new ArithExpresion(3, new VarExpresion("v"), new ConstExpresion(10)));
+                                                                        add( new VarExpresion("w"));
+                                                                        }}
+                                ),
+                                new PrintStatement(new VarExpresion("v"))
+                        )
+                ),
+                new CompStatement(
+                        new forkStmt(new call(
+                                "product",
+                                new ArrayList<Expresion>() {{add( new VarExpresion("v"));
+                                    add( new VarExpresion("w"));
+                                }}
+                        )),
+                        new forkStmt(new call(
+                                "sum",
+                                new ArrayList<Expresion>() {{add( new VarExpresion("v"));
+                                    add( new VarExpresion("w"));
+                                }}
+                        ))
+                )
+
+        );
+
+
+
+
+        ObservableList<IntStatement> items = FXCollections.observableArrayList(fork_st, sleep_state, procstate);
 
         list_statemant.setItems(items);
 
